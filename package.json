@@ -1,0 +1,26 @@
+{
+  "name": "raureif-svelte",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrmod/raureif-svelte.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [
+    "raureif-addon"
+  ],
+  "bugs": {
+    "url": "https://github.com/chrmod/raureif-svelte/issues"
+  },
+  "homepage": "https://github.com/chrmod/raureif-svelte#readme",
+  "dependencies": {
+    "broccoli-funnel": "^1.2.0",
+    "broccoli-svelte": "0.1.1"
+  }
+}
