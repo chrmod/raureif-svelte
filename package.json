@@ -1,6 +1,6 @@
 {
   "name": "raureif-svelte",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Raureif Svelte Addon",
   "repository": "https://github.com/chrmod/raureif-svelte",
   "author": "Krzysztof Jan Modras <chrmod@chrmod.net>",
@@ -8,12 +8,19 @@
   "keywords": [
     "raureif-addon"
   ],
+  "files": [
+    "dist/*"
+  ],
   "main": "index.js",
   "scripts": {
     "test": "raureif test"
   },
+  "peerDependencies": {
+    "raureif": ">2.0.0"
+  },
   "dependencies": {
     "broccoli-funnel": "^1.2.0",
-    "broccoli-svelte": "0.1.1"
+    "broccoli-svelte": "0.1.1",
+    "raureif": "2.0.2"
   }
 }
